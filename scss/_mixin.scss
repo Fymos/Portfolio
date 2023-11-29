@@ -1,0 +1,11 @@
+@mixin citeBtn ($bgColor: transparent, $tColor: transparent) {
+  background: $bgColor;
+  padding: 5px;
+  color: $tColor;
+  border-top: 2px solid $tColor;
+  border-bottom: 2px solid $tColor;
+  width: 139px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 600;
+}

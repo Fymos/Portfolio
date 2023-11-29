@@ -1,0 +1,41 @@
+.berries {
+  height: 313px;
+  background: linear-gradient(90deg, #1D1D1D 31.74%, #1d1d1dea 90.49%), url(../img/Logo\ ITB.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.berries__title {
+  padding-top: 55px;
+  text-align: left;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5.561px;
+}
+.berries__des {
+  margin-top: 20px;
+  width: 1148px;
+  color: #FFF;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 138.682%;
+}
+.berries__btn {
+  @include citeBtn;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 44px;
+  width: 140px;
+  transition: .4s;
+  &:hover {
+    opacity: .6;
+    border-right: none;
+    border-left: none;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+}

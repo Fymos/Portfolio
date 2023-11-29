@@ -1,0 +1,92 @@
+.hero {
+  padding-top: 145px;
+  height: 900px;
+  background: linear-gradient(100deg, $lightGray 0% 50%, black  50% 100%);
+}
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__box {
+  margin-top: 200px;
+  h4 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  h2 {
+    margin-top: 44px;
+    font-family: Raleway;
+    font-size: 80px;
+    font-weight: 700;
+  }
+  p {
+    margin-top: 10px;
+    color: #909090;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 800;
+  }
+}
+.socials {
+  margin-top: 150px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61px;
+  height: 56px;
+  background: #C4C4C4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  img {
+    padding: 10px;
+    &:hover {
+      animation: rotate-center .6s linear;
+    }
+  }
+}
+
+ @-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.hero__banner {
+  width: 600px;
+  height: 755px;
+  background: url(../img/image\ 17.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom ;
+  position: relative;
+}
+.hero__des {
+  position: absolute;
+  right: 40%;
+  bottom: 20px;
+  width: 136px;
+  color: #000;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}

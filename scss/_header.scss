@@ -1,0 +1,51 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+.nav {
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  animation: logo infinite 3s linear;
+}
+@keyframes logo {
+  100%{
+    transform: rotateZ(360deg)
+  }
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+.nav__item {
+  text-align: center;
+  width: 100px;
+  margin-left: 70px;
+  color: #000;
+  h4 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .3s;
+    &:hover {
+      margin-left: -15px;
+    }
+  } 
+  button {
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 147px;
+    transition: .2s;
+    font-weight: 700;
+    font-size: 15px;
+    &:hover {
+      opacity: .8;
+      margin-top: -10px;
+    }
+  }
+}

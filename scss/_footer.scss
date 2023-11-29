@@ -1,0 +1,46 @@
+.footer {
+  padding-top: 70px;
+  height: 326px;
+  background: #1A1A1A;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.footer__btn {
+  height: 70px;
+  position: absolute;
+  background: url(../img/ic_baseline-double-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 30px;
+  transition: .3s;
+  a {
+    border: none;
+    background: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2.781px;
+  }
+  &:hover {
+    margin-top: -10px;
+  }
+}
+.footer__social {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 114px;
+}
+.footer__des {
+  margin-top: 44px;
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
